@@ -1,6 +1,21 @@
+header{
+	text-align: center;
+}
+
 #showDescription {
 	padding: 1rem;
 	background-color: #f7f7f7;
     box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5px;
+}
+
+footer {
+    z-index: 1020;
+    padding: 10px 0;
+    border-top: 1px solid #CAD0D6;
+    line-height: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }
